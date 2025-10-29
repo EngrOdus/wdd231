@@ -1,5 +1,6 @@
 :root {
     --title-color: #3C096C;
+    --header-font: verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -13,12 +14,14 @@ header {
     column-gap: 15px;
     align-items: end;
     border-bottom: 2px solid #ddd;
+    font-family: var(--header-font);
 }
 
 header img {
     display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 5px;
 }
 
 header span {
@@ -31,9 +34,15 @@ header span {
     border: none;
     color: var(--title-color);
     cursor: pointer;
+    font-family: var(--header-font);
 }
 
 .hamburger::after {
     content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::after{
+    content: "\00D7";
     font-size: 2rem;
 }
