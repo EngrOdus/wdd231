@@ -22,5 +22,18 @@ header img {
 }
 
 header span {
+    font-size: 1.6rem;
     color: var(--title-color);
+}
+/* ============================= HAMBURGER MENU ============================== */
+.hamburger {
+    background-color: #fff;
+    border: none;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
 }
