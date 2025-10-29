@@ -1,9 +1,26 @@
+:root {
+    --title-color: #3C096C;
+}
+
 * {
     font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: 44px auto 50px;
+    column-gap: 15px;
+    align-items: end;
+    border-bottom: 2px solid #ddd;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    color: var(--title-color);
 }
