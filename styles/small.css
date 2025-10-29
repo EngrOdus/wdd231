@@ -1,0 +1,48 @@
+:root {
+    --title-color: #3C096C;
+    --header-font: verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 44px auto 50px;
+    column-gap: 15px;
+    align-items: end;
+    border-bottom: 2px solid #ddd;
+    font-family: var(--header-font);
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+header span {
+    font-size: 1.6rem;
+    color: var(--title-color);
+}
+/* ============================= HAMBURGER MENU ============================== */
+.hamburger {
+    background-color: #fff;
+    border: none;
+    color: var(--title-color);
+    cursor: pointer;
+    font-family: var(--header-font);
+}
+
+.hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::after{
+    content: "\00D7";
+    font-size: 2rem;
+}

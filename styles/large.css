@@ -1,0 +1,15 @@
+/* This css file will be applied when the screen is 38rem(16 * 38 = 608px) and above */
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    header {
+        grid-template-columns: 44px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
