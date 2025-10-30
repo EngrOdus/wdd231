@@ -1,4 +1,5 @@
 :root {
+    --title-color: #3C096C;
     --white-color: "#f7f7f7";
     --light-blue: "#ddf";
     --blue-blue: "#0573e1";
@@ -16,6 +17,7 @@ header, nav, main, footer {
 }
 /*===================== Header ==================*/
 header {
+    background-color: #adf;
     display: grid;
     grid-template-columns: 60px auto 46px;
     column-gap: 15px;
@@ -80,15 +82,30 @@ header span {
     text-decoration: none;
     margin-top: 10px;
     border-bottom: 1px solid #adf;
+    color: #000;
 }
+
+.navigation a:hover{
+    color: darkcyan;
+    border: lightblue 1px solid;
+    border-radius: 8px;
+    padding: 1px 2px;
+}
+
+
+/* =================== main ==================== */
 
 main {
     background-color: pink;
+    border: 2px solid #adf;
+    margin: 2px 0 2px 0;
 }
 
 #foot {
+    padding: 1.2rem 0;
     background-color: #adf;
     font-size: 1.1rem;
     align-self: end;
     text-align: center;
 }
+
