@@ -5,20 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chamber of Commerce website, Association of businesses website, Directory of businesses">
     <meta name="author" content="Odumamwen Evans Henry Aisiokuebor">
+    <link rel="stylesheet" href="styles/chamber-commerce-small.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <script src="" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/LastModified.js" defer></script>
+    <script src="scripts/lastVisit.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <span></span>
-        <button></button>
+        <img src="images/chamber-commerce.svg" alt="The logo of Unicon Chamber of commerce" width="1000" height="1000">
+        <span>Unicon Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
     </header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Discovery</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1></h1>
+        <p>main</p>
+
+    </main>
+    <footer id="foot">
+        <p id="lastModify"></p>
+        <p id="last-box"><span id="visit-text"></span> <span id="visit-times"></span> </p>
+        <p>&copy; <span id="currentyear"></span> &nbsp; 🎏 &nbsp;  Odumamwen Evans Henry Aisiokuebor &nbsp; 🎏 &nbsp;  Nigeria.</p>
+    </footer>
 </body>
 </html>
