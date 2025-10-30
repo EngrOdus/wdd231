@@ -2,7 +2,6 @@
     --title-color: #3C096C;
     --header-font: verdana, Geneva, Tahoma, sans-serif;
     --veryLight-grey: #ddd;
-    --border-color: grey;
 }
 
 /* This css file will be applied when the screen is 38rem(16 * 38 = 608px) and above */
@@ -33,4 +32,6 @@
         margin-left: -2.2rem;
         align-items: center;
     }
+
+    
 }
